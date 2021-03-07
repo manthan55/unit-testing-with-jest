@@ -26,7 +26,7 @@ This repo serves as testing ground for the Stack Overflow question [here](https:
 
 3.  **Running Tests**
     
-    You can follow each scenario mentioned in the StackOverflow question by commention out each test and running the tests with the below command.
+    You can follow each scenario mentioned in the StackOverflow question by commenting out each test and running the tests with the below command.
     
     ```shell
     jest src/Services/RabbitMQ/RabbitMQ.test.ts
