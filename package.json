@@ -1,11 +1,11 @@
 {
   "name": "unit-testing-with-jest",
   "version": "1.0.0",
-  "description": "This repo serves as testing ground for the Stack Overflow question here",
+  "description": "This repo serves as testing ground for the Stack Overflow question here https://stackoverflow.com/questions/66506510/testing-rabbitmq-connection-code-with-jest-results-in-weird-unsynchronized-out",
   "main": "index.js",
   "scripts": {
     "start": "ts-node-dev ./src/index.ts",
-    "test": "jest --coverage",
+    "test": "jest",
     "build": "tsc"
   },
   "author": "Manthan Patidar",

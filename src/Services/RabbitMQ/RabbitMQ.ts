@@ -26,14 +26,12 @@ export default class RabbitMQ {
             console.log("Error originated in Connect()")
             reject(err);
             return;
-            // throw new Error(err);
           }
 
           conn.on("error", function (err: Error) {
             if (err.message !== "Connection closing") {
               reject(err);
               return;
-              // throw err;
             }
           });
           conn.on("close", () => {
